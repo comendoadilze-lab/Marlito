@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marlito News — 25 de setembro de 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F5F6F8; --surface:#FFFFFF; --ink:#10131A; --muted:#5B6472; --line:#E1E4E9;
+    --accent:#173B7A;
+    --mundo:#173B7A; --tec:#173B7A; --ciencia:#173B7A; --cultura:#173B7A;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:'Work Sans', Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.headline{font-family:'Fraunces', Georgia, serif;}
+  a{color:inherit; text-decoration:none;}
+  .wrap{max-width:1100px; margin:0 auto; padding:0 24px;}
+
+  header{padding:20px 0; border-bottom:1px solid var(--line); background:var(--surface);}
+  header .wrap{display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;}
+  .logo{font-family:'Fraunces', serif; font-weight:700; font-size:1.7rem;}
+  .logo .dot{color:var(--accent);}
+  nav{display:flex; gap:20px; font-size:0.92rem; color:var(--muted);}
+  nav a:hover{color:var(--ink);}
+  .datebar{font-size:0.78rem; color:var(--muted); padding:8px 0; border-bottom:1px solid var(--line);}
+
+  main{padding:36px 0 60px;}
+
+  .hero{
+    display:grid; grid-template-columns:1.6fr 1fr; gap:32px;
+    padding-bottom:32px; border-bottom:1px solid var(--line); margin-bottom:40px;
+  }
+  .tag{
+    display:inline-block; font-size:0.76rem; font-weight:600;
+    padding:3px 9px; border-radius:3px; color:#fff; margin-bottom:12px;
+  }
+  .tag.mundo{background:var(--mundo);}
+  .tag.tecnologia{background:var(--tec);}
+  .tag.ciencia{background:var(--ciencia);}
+  .tag.cultura{background:var(--cultura);}
+
+  .hero h1{font-size:2.3rem; line-height:1.14; margin:0 0 14px; font-weight:600;}
+  .hero p.dek{color:var(--muted); font-size:1.05rem; line-height:1.55; margin:0 0 12px; max-width:58ch;}
+  .fonte{font-size:0.8rem; color:var(--muted);}
+
+  .hero-side{display:flex; flex-direction:column; gap:20px;}
+  .side-item{padding-bottom:16px; border-bottom:1px solid var(--line);}
+  .side-item:last-child{border-bottom:none; padding-bottom:0;}
+  .side-item h3{font-size:1.05rem; margin:0 0 6px; font-weight:600; line-height:1.3;}
+
+  .categoria{margin-bottom:44px;}
+  .categoria-titulo{
+    margin:0 0 20px; padding:9px 16px; border-radius:5px;
+    font-size:1.02rem; font-weight:600; color:#fff; background:var(--ink);
+    display:inline-block;
+  }
+  #mundo .categoria-titulo{background:var(--mundo);}
+  #tecnologia .categoria-titulo{background:var(--tec);}
+  #ciencia .categoria-titulo{background:var(--ciencia);}
+  #cultura .categoria-titulo{background:var(--cultura);}
+  .grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:26px;}
+  .card h3{font-size:1.1rem; margin:0 0 8px; font-weight:600; line-height:1.32;}
+  .card p{color:var(--muted); font-size:0.9rem; line-height:1.5; margin:0 0 8px;}
+
+  footer{
+    border-top:1px solid var(--line); padding:24px 0; margin-top:10px;
+    color:var(--muted); font-size:0.82rem; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;
+  }
+
+  @media (max-width:760px){
+    .hero{grid-template-columns:1fr;}
+    .grid{grid-template-columns:1fr;}
+    .hero h1{font-size:1.8rem;}
+    nav{gap:14px; font-size:0.85rem;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="logo">Marlito<span class="dot">.</span>News</div>
+    <nav>
+      <a href="#mundo">Mundo</a>
+      <a href="#tecnologia">Tecnologia</a>
+      <a href="#ciencia">Ciência</a>
+      <a href="#cultura">Cultura</a>
+    </nav>
+  </div>
+</header>
+<div class="datebar"><div class="wrap">25 de setembro de 2026</div></div>
+
+<main class="wrap">
+
+  <section class="hero">
+    <article>
+      <span class="tag mundo">MUNDO</span>
+      <h1 class="headline">Líderes mundiais se reúnem em cúpula de emergência para discutir crise econômica global</h1>
+      <p class="dek">Esta é uma edição de exemplo. Assim que o GitHub Actions rodar pela primeira vez, esta manchete será substituída por uma notícia real, coletada diretamente das fontes configuradas.</p>
+      <div class="fonte">Edição de demonstração — aguardando primeira atualização automática</div>
+    </article>
+    <aside class="hero-side">
+      <div class="side-item">
+      <h3><a href="#">Cúpula entre líderes europeus termina sem acordo sobre novo pacote de sanções</a></h3>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </div>
+<div class="side-item">
+      <h3><a href="#">Negociações comerciais entre blocos asiáticos avançam para nova fase</a></h3>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </div>
+<div class="side-item">
+      <h3><a href="#">Eleições em país sul-americano têm segundo turno confirmado para o mês que vem</a></h3>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </div>
+    </aside>
+  </section>
+
+  <section class="categoria" id="mundo">
+    <div class="categoria-titulo">Mundo &amp; Geopolítica</div>
+    <div class="grid"><article class="card">
+      <h3><a href="#">Conselho de Segurança da ONU se reúne em caráter de urgência após escalada em zona de conflito</a></h3>
+      <p>Reunião extraordinária foi convocada depois de novos confrontos registrados nas últimas 48 horas.</p>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </article>
+<article class="card">
+      <h3><a href="#">Banco central de potência europeia sinaliza mudança na política de juros</a></h3>
+      <p>Decisão deve impactar mercados globais já na próxima semana, segundo analistas.</p>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </article>
+<article class="card">
+      <h3><a href="#">Novo acordo climático é assinado por grupo de países em cúpula internacional</a></h3>
+      <p>O texto prevê metas intermediárias de redução de emissões até o fim da década.</p>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </article></div>
+  </section>
+
+  <section class="categoria" id="tecnologia">
+    <div class="categoria-titulo">Tecnologia</div>
+    <div class="grid"><article class="card">
+      <h3><a href="#">Gigante de tecnologia anuncia investimento bilionário em infraestrutura de dados</a></h3>
+      <p>Expansão deve gerar milhares de empregos e ampliar capacidade de processamento na região.</p>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </article>
+<article class="card">
+      <h3><a href="#">Novo satélite de comunicação é lançado com sucesso por agência espacial internacional</a></h3>
+      <p>Equipamento vai ampliar cobertura de internet em áreas remotas de três continentes.</p>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </article></div>
+  </section>
+
+  <section class="categoria" id="ciencia">
+    <div class="categoria-titulo">Ciência</div>
+    <div class="grid"><article class="card">
+      <h3><a href="#">Estudo internacional revela novos dados sobre aquecimento dos oceanos</a></h3>
+      <p>Pesquisa reuniu dados de mais de 40 estações de monitoramento espalhadas pelo mundo.</p>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </article></div>
+  </section>
+
+  <section class="categoria" id="cultura">
+    <div class="categoria-titulo">Cultura &amp; Entretenimento</div>
+    <div class="grid"><article class="card">
+      <h3><a href="#">Festival internacional de cinema anuncia lista de filmes selecionados para este ano</a></h3>
+      <p>Produções de mais de 20 países vão disputar os principais prêmios da mostra.</p>
+      <div class="fonte">Exemplo — fonte real após primeira execução</div>
+    </article></div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <span>Marlito News — cobertura diária, gerada automaticamente</span>
+  <span>Publicado gratuitamente via GitHub Pages</span>
+</footer>
+
+</body>
+</html>
